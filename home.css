@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+body{
+    margin: 0;
+}
+#section-1{
+    background-color: #FFCD9E;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+#section-2{
+    background-color: #282828;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#topic{
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+#topic-2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.content{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#email{
+    position: absolute;
+    height: 64px;
+    width: 344px;
+    background: #FFFFFF;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    padding: 0px;
+    color: #888888;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+#Register{
+    position: absolute;
+    width: 216px;
+    height: 64px;
+    left: 500px;
+    background: #282828;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+#last{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.part1{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.part2{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.logo{
+    float: right;
+}
+.link{
+    color: #FFFFFF;
+}
+.link:hover{
+    color: aqua;
+}
+.align-right{
+    float: right;
+}
+.align-left{
+    float: left;
+}
